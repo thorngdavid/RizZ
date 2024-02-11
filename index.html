@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>David</title>
+    <link rel="icon" href="heart.ico" type="image/png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body onload="showGifsAndQuestion()">
+    <nav>
+        <ul>
+            <li><a href="https://thorngdavid.github.io/TdRizZ/">David</a></li>
+            <li><img src="menu.png" alt="menu" id="menu"></li>
+        </ul>
+    </nav>
+    <nav id="sidebar">
+        <a href="https://thorngdavid.github.io/Portfolio/">Portfolio</a>
+        <a href="#">Blogs</a>
+    </nav>
+    <div id="container">
+        <div id="question"style="display: none";>Be Ma GirlFriend ? </div>
+            
+        
+        <div id="gif-container">
+            <img id="question-gif1" src="https://media.tenor.com/dsq7kmm2Fc0AAAAi/peachcat-cat.gif" class="gif">
+            <img id="question-gif2" src="https://media.tenor.com/UTmQNO88ls8AAAAi/cat-love.gif" alt="Question Gif 2" class="gif">
+        </div>
+        <div class="btn-container">
+            <button id="no-button" onclick="moveNoButtonRandomly()">No</button>
+            <button id="yes-button" onclick="playMusic(); showThankYou()">Yes</button>
+        </div>
+
+        <div id="message"></div><br>
+        <div id="message2"></div>
+        <div id="message-gif-container">
+            <img id="message-gif1" src="https://media.tenor.com/UW9cxCBEfcQAAAAi/cute-cat.gif" alt="Message Gif 1" class="gif-m">
+            <img id="message-gif2" src="https://media.tenor.com/px9mS2sB4iUAAAAi/cat-fuck-funny-cat.gif" alt="Message Gif 2" class="gif-m">
+        </div>
+
+        <audio id="background-music" src="HYBS-TIP-TOE.mp3" loop></audio>
+    </div>
+    <footer>
+        <p>&copy; 2024 Made with ❤️ from David.</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
