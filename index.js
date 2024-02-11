@@ -62,7 +62,7 @@ function showThankYou() {
     hideButtons();
     const messagegifcontainer = document.getElementById("message-gif-container");
     const body = document.body;
-    document.getElementById('message').innerHTML = 'Thank you <3!!';
+    document.getElementById('message').innerHTML = 'Thanks you for say Yes';
     document.getElementById('message-gif-container').style.display = 'block';
     messageGifInterval = setInterval(showNextMessageGif, 2100);
     messagegifcontainer.style.display = "flex";
