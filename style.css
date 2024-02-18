@@ -58,14 +58,14 @@ nav ul li img {
 }
 
 #sidebar a {
-    margin: 10px;
-    font-size: 15px;
+    margin: 8px;
+    font-size: 16px;
     font-weight: 900;
     color: black;
     text-decoration: none;
 }
 #sidebar a:first-child {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 #sidebar a:hover {
