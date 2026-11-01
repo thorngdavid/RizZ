@@ -14,7 +14,7 @@ function toggleSidebar() {
         sidebar.style.top = '50px';
         menuIcon.src = "closemenu.png";
     } else {
-        sidebar.style.top = '-130px';
+        sidebar.style.top = '-150px';
         menuIcon.src = "menu.png";
     }
 }
