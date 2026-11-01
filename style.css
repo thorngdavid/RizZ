@@ -43,10 +43,10 @@ nav ul li img {
 }
 #sidebar {
     position: fixed;
-    top: -130px;
+    top: -150px;
     right: 0;
     width: 90px;
-    height: 130px;
+    height: 150px;
     border: 1px solid black;
     background: white;
     display: flex;
