@@ -67,7 +67,7 @@ function showThankYou() {
     messageGifInterval = setInterval(showNextMessageGif, 2100);
     messagegifcontainer.style.display = "flex";
     body.style.background = "pink";
-    sidebar.style.top = '-130px';
+    sidebar.style.top = '-150px';
     const audio = document.getElementById('background-music');
     audio.play();
     const menuIcon = document.getElementById("menu");
